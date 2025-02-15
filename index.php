@@ -18,8 +18,8 @@
   
         
     <header class="navbar navbar-expand-md navbar-light mr-auto">
-    <a href="#" class="navbar-brand ml-auto">
-         <img src="image/sofiane.jpg" alt="sofiane" class="w-auto" />
+    <a href="#" class="navbar-brand ml-25">
+         <img src="image/sofiane.jpg" alt="sofiane" class="w-25" />
      </a>
 	 <!-- id nomme les elts a faire disparaitre -->
      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content">
