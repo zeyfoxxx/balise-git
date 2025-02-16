@@ -17,3 +17,11 @@
 #header {
     background: #e7c504;
 }
+
+.navbar-nav {
+	margin-left: right;
+}
+
+.body {
+    background-color: #ADD8E6; /* Bleu clair */
+}
