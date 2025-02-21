@@ -1,5 +1,6 @@
 #container{
     size: 100em 100em;
+	background-color:rgb(173, 188, 230);
 }
 
 #script{
@@ -22,6 +23,13 @@
 	margin-left: right;
 }
 
-.body {
-    background-color: #ADD8E6; /* Bleu clair */
+body {
+    background-image: url('image/capi.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+main{
+	flex:1;
 }

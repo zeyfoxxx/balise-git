@@ -10,19 +10,8 @@
         <link rel="stylesheet" href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" />
         <link rel="stylesheet" href="https://cdn.anychart.com/releases/v8/fonts/css/anychart.min.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="projet.css">
         <link rel="stylesheet" href="css/bootstrap.min.css" />
-
-
-    <style>
-            body {
-                background-color:rgb(173, 188, 230); /* Bleu clair */
-            }
-
-            #container{
-                background-color:rgb(173, 188, 230);
-            }
-        </style>
+        <link rel="stylesheet" href="visuel.css">
 
     </head>    
     <body>    
@@ -38,7 +27,7 @@
 
         <!-- Contenu de la navbar -->
         <div class="collapse navbar-collapse" id="navbar-content">
-            <ul class="navbar-nav ml-auto"> <!-- Ajout de ml-auto ici -->
+            <ul class="navbar-nav ml-center mr-5"> <!-- Ajout de ml-auto ici -->
                 <li class="nav-item">
                     <a href="#" class="nav-link active">Accueil</a>
                 </li>
@@ -78,11 +67,8 @@
                 </script>
             
             <div id="containerM">
-                <header>
-                    <h1> sofiane</h1>
-                </header>
-        
-        
+
+            
             </div>
         
         
@@ -90,5 +76,14 @@
         <script src="js/fontawesome-all.min.js"></script>
         <script src="js/jquery-3.3.1.slim.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
+        
+        
+        <footer class="bg-secondary text-white text-center py-3 fixed-bottom">
+            <p>&copy; la y faudrais mettre notre projet et nos prénom je pense</p>
+        </footer>
+    
+    
     </body>
+
+
 </html>
