@@ -27,11 +27,7 @@
 
         <!-- Contenu de la navbar -->
         <div class="collapse navbar-collapse" id="navbar-content">
-<<<<<<< HEAD
             <ul class="navbar-nav ml-auto mr-5"> <!-- Ajout de ml-auto ici -->
-=======
-            <ul class="navbar-nav ml-center mr-5"> <!-- Ajout de ml-auto ici -->
->>>>>>> 7f5c3c4abb7aa0d0de57e422542bfbe22ebc0b62
                 <li class="nav-item">
                     <a href="#" class="nav-link active">Accueil</a>
                 </li>
@@ -48,7 +44,6 @@
         </div>
         
     </header>
-<<<<<<< HEAD
 
     <div class="container-fluid">
         <div class="row justify-content-center mt-5">
@@ -58,11 +53,6 @@
         </div>
     </div>
                 
-=======
-        <div class="d-flex justify-content-center mt-5" style="height: 50vh; position: relative; left: -500px;">
-            <div id="container" class="w-25"></div>
-        </div>        
->>>>>>> 7f5c3c4abb7aa0d0de57e422542bfbe22ebc0b62
                 <script>
                     anychart.data.loadJsonFile("data.php", function (data) {  // init and draw chart
                         var chart = anychart.line(data);
@@ -95,11 +85,7 @@
         
         
         <footer class="bg-secondary text-white text-center py-3 fixed-bottom">
-<<<<<<< HEAD
             <p>&copy; caca balise capitainerie bandole BTS CIEL REMPART</p>
-=======
-            <p>&copy; la y faudrais mettre notre projet et nos prénom je pense</p>
->>>>>>> 7f5c3c4abb7aa0d0de57e422542bfbe22ebc0b62
         </footer>
     
     
