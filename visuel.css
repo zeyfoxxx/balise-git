@@ -1,0 +1,35 @@
+#container{
+    size: 100em 100em;
+	background-color:rgb(173, 188, 230);
+}
+
+#script{
+    size: 100em 100em;
+
+}
+
+#containerM {
+	display:flex;
+	flex-direction:row;
+	max-width:900px;
+	margin:3 auto;
+}
+
+#header {
+    background: #e7c504;
+}
+
+.navbar-nav {
+	margin-left: right;
+}
+
+body {
+    background-image: url('image/capi.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+main{
+	flex:1;
+}
