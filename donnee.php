@@ -38,7 +38,7 @@
                     <a href="#" class="nav-link">ADMIN</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Test</a>
+                    <a href="credit.php" class="nav-link">CREDIT</a>
                 </li>
             </ul>
         </div>
@@ -115,7 +115,7 @@
         
         
         <footer class="bg-secondary text-white text-center py-3 fixed-bottom">
-            <p>&copy; caca balise capitainerie bandole BTS CIEL REMPART</p>
+            <p>&copy; balise capitainerie bandole BTS CIEL REMPART</p>
         </footer>
     
     

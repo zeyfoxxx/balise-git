@@ -38,16 +38,16 @@
                     <a href="#" class="nav-link">ADMIN</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Test</a>
+                    <a href="credit.php" class="nav-link">CREDIT</a>
                 </li>
             </ul>
         </div>
         
     </header>
             
-            <div id="containerB" class="d-flex flex-column justify-content-center align-items-center text-white text-center" style="height: 65vh">
-                <p class="h1"> Bienvenue sur la page de la capitainerie de bandol</p>
-                <p class="h1"> Vous retrouverez sur ce site la météo maritime ainsi différente donnée sur l'état actuel de la mer</p>
+            <div id="containerB" class="d-flex flex-column justify-content-center align-items-center text-white text-center font-weight-bolder" style="height: 65vh">
+                <p class="h2"> Bienvenue sur la page de la capitainerie de bandol</p>
+                <p class="h2"> Vous retrouverez sur ce site la météo maritime ainsi différente donnée sur l'état actuel de la mer</p>
             
             </div>
         
