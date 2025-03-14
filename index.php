@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse" id="navbar-content">
             <ul class="navbar-nav ml-auto mr-5"> <!-- Ajout de ml-auto ici -->
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">Accueil</a>
+                    <a href="index.php" class="nav-link active">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Donnée</a>
+                    <a href="donnee.php" class="nav-link">Donnée</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">ADMIN</a>
@@ -44,36 +44,10 @@
         </div>
         
     </header>
-
-    <div class="container-fluid">
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-8 col-sm-12">
-                <div id="container" style="width: 100%; height: 50vh;"></div>
-            </div>
-        </div>
-    </div>
-                
-                <script>
-                    anychart.data.loadJsonFile("data.php", function (data) {  // init and draw chart
-                        var chart = anychart.line(data);
-                        chart.title("Top 5 fruits");
-                        chart.background().fill("rgba(250, 252, 255, 0.99)");
-                        chart.container("container");
-                        chart.draw();
-
-                        // update chart from server every 5 seconds
-                        setInterval(function(){
-                            // make request to server
-                            // to use loadJsonFile function you must include data-adapter.min.js to your page
-                            anychart.data.loadJsonFile("data.php", function (data) {
-                                chart.data(data);
-                            })
-                        }, 5000);
-                    });
-                </script>
             
-            <div id="containerM">
-
+            <div id="containerB" class="d-flex flex-column justify-content-center align-items-center text-white text-center" style="height: 65vh">
+                <p class="h1"> Bienvenue sur la page de la capitainerie de bandol</p>
+                <p class="h1"> Vous retrouverez sur ce site la météo maritime ainsi différente donnée sur l'état actuel de la mer</p>
             
             </div>
         
@@ -85,7 +59,8 @@
         
         
         <footer class="bg-secondary text-white text-center py-3 fixed-bottom">
-            <p>&copy; caca balise capitainerie bandole BTS CIEL REMPART</p>
+            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p>
+            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
         </footer>
     
     
