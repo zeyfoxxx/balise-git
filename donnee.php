@@ -46,31 +46,61 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-8 col-sm-12">
-                <div id="container" style="width: 100%; height: 50vh;"></div>
-            </div>
+    <div class="row justify-content-center mt-5">
+        <!-- Premier graphique -->
+        <div class="col-md-6 col-sm-12">
+            <div id="chart1" style="width: 100%; height: 50vh;"></div>
+        </div>
+
+        <!-- Deuxième graphique -->
+        <div class="col-md-6 col-sm-12">
+            <div id="chart2" style="width: 100%; height: 50vh;"></div>
         </div>
     </div>
-                
-                <script>
-                    anychart.data.loadJsonFile("data.php", function (data) {  // init and draw chart
-                        var chart = anychart.line(data);
-                        chart.title("Top 5 fruits");
-                        chart.background().fill("rgba(250, 252, 255, 0.99)");
-                        chart.container("container");
-                        chart.draw();
+</div>
 
-                        // update chart from server every 5 seconds
-                        setInterval(function(){
-                            // make request to server
-                            // to use loadJsonFile function you must include data-adapter.min.js to your page
-                            anychart.data.loadJsonFile("data.php", function (data) {
-                                chart.data(data);
-                            })
-                        }, 5000);
-                    });
-                </script>
+
+<script>
+    // Charger les données depuis data.php et afficher les graphiques
+    anychart.data.loadJsonFile("data.php", function (data) {
+        // Vérification des données
+        console.log("Données reçues :", data);
+
+        // Création du premier graphique (Courbe 1 - Fruits)
+        var chart1 = anychart.column(); 
+        var dataSet1 = anychart.data.set(data.courbe1);
+        var series1 = chart1.column(dataSet1.mapAs({ x: "name", value: "valeur" }));
+
+        series1.name("Valeur des Fruits");
+        chart1.title("pour le moment fruit mais bientot humidité en fonction date");
+        chart1.xAxis().title("date");
+        chart1.yAxis().title("humidité (%)");
+        chart1.background().fill("rgba(250, 252, 255, 0.99)");
+        chart1.container("chart1");
+        chart1.draw();
+
+        // Création du deuxième graphique (Courbe 2 - Température dans le temps)
+        var chart2 = anychart.column(); 
+        var dataSet2 = anychart.data.set(data.courbe2);
+        var series2 = chart2.column(dataSet2.mapAs({ x: "temps", value: "temperature" }));
+
+        series2.name("Température");
+        chart2.title("Température en fonction de la date");
+        chart2.xAxis().title("date");
+        chart2.yAxis().title("Température (°C)");
+        chart2.background().fill("rgba(250, 252, 255, 0.99)");
+        chart2.container("chart2");
+        chart2.draw();
+
+    
+        setInterval(function () {
+            anychart.data.loadJsonFile("data.php", function (newData) {
+                dataSet1.data(newData.courbe1);
+                dataSet2.data(newData.courbe2);
+            });
+        }, 5000);
+    });
+</script>
             
             <div id="containerM">
 
