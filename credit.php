@@ -17,7 +17,7 @@
     <body>    
         <header class="navbar navbar-expand-lg navbar-light bg-secondary">
         <a href="#" class="navbar-brand">
-            <img src="image/capi.jpg" alt="capi" class="w-25" />
+            <img src="image/capi-logo.png" alt="capi" class="w-25" />
         </a>
         
         <!-- Bouton hamburger pour mobile -->
