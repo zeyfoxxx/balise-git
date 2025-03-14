@@ -57,7 +57,7 @@
                     anychart.data.loadJsonFile("data.php", function (data) {  // init and draw chart
                         var chart = anychart.line(data);
                         chart.title("Top 5 fruits");
-                        chart.background().fill("rgb(173, 188, 230)");
+                        chart.background().fill("rgba(250, 252, 255, 0.99)");
                         chart.container("container");
                         chart.draw();
 
