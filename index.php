@@ -58,9 +58,9 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         
         
-        <footer class="bg-secondary text-white text-center py-3 fixed-bottom">
-            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p>
-            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
+        <footer class="bg-secondary text-white text-center py-3">
+            <p>&copy; balise capitainerie bandole BTS CIEL REMPART</p>
+            <p>Ce site a été réalisé par les étudiants du BTS CIEL Rempart</p>
         </footer>
     
     

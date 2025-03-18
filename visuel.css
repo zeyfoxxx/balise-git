@@ -33,3 +33,21 @@ body {
 main{
 	flex:1;
 }
+
+/* Assure que la page occupe toute la hauteur */
+html, body {
+    height: 100%; /* Prend toute la hauteur de la page */
+    margin: 0;
+}
+
+/* Conteneur principal */
+body {
+    display: flex;
+    flex-direction: column;  /* Organise les éléments en colonne */
+    min-height: 100vh; /* Assure que le body occupe au moins 100% de la hauteur de la fenêtre */
+}
+
+/* Le footer reste en bas, même si le contenu est court */
+footer {
+    margin-top: auto; /* Cela pousse le footer vers le bas */
+}
