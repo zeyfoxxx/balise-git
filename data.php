@@ -33,10 +33,21 @@ while ($row = $result2->fetch_assoc()) {
     );
 }
 
+// Récupération des données de la troisème courbe
+$result3 = $mysqli->query("SELECT tension, heure FROM batterie");
+$data3 = array();
+while ($row = $result3->fetch_assoc()) {
+    $data3[] = array(
+        "tension" => $row['tension'],
+        "heure" => $row['heure']
+    );
+}
+
+
 // Fermeture de la connexion
 $mysqli->close();
 
 // Retour des données au format JSON
 header('Content-Type: application/json');
-echo json_encode(array("courbe1" => $data1, "courbe2" => $data2));
+echo json_encode(array("courbe1" => $data1, "courbe2" => $data2, "courbe3" => $data3));
 ?>

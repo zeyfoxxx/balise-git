@@ -56,6 +56,10 @@
         <div class="col-md-6 col-sm-12">
             <div id="chart2" style="width: 100%; height: 50vh;"></div>
         </div>
+
+        <div class="col-md-6 col-sm-12">
+            <div id="chart3" style="width: 100%; height: 50vh;"></div>
+        </div>
     </div>
 </div>
 
@@ -92,11 +96,25 @@
         chart2.container("chart2");
         chart2.draw();
 
+        var chart3 = anychart.line(); 
+        var dataSet3 = anychart.data.set(data.courbe3);
+        var series3 = chart3.line(dataSet3.mapAs({ x: "heure", value: "tension" }));
+
+        series3.name("batterie");
+        chart3.title("Tension en foction du temps");
+        chart3.xAxis().title("date(heure)");
+        chart3.yAxis().title("tension (V)");
+        chart3.background().fill("rgba(250, 252, 255, 0.99)");
+        chart3.container("chart3");
+        chart3.draw();
+        
+
     
         setInterval(function () {
             anychart.data.loadJsonFile("data.php", function (newData) {
                 dataSet1.data(newData.courbe1);
                 dataSet2.data(newData.courbe2);
+                dateSet3.data(newData.courbe3);
             });
         }, 5000);
     });
@@ -114,8 +132,9 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         
         
-        <footer class="bg-secondary text-white text-center py-3 fixed-bottom">
-            <p>&copy; balise capitainerie bandole BTS CIEL REMPART</p>
+        <footer class="bg-secondary text-white text-center py-3">
+            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p>
+            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
         </footer>
     
     

@@ -59,8 +59,8 @@
         
         
         <footer class="bg-secondary text-white text-center py-3">
-            <p>&copy; balise capitainerie bandole BTS CIEL REMPART</p>
-            <p>Ce site a été réalisé par les étudiants du BTS CIEL Rempart</p>
+            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p>
+            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
         </footer>
     
     
