@@ -111,7 +111,7 @@
             anychart.data.loadJsonFile("data.php", function (newData) {
                 dataSet1.data(newData.courbe1);
                 dataSet2.data(newData.courbe2);
-                dateSet3.data(newData.courbe3);
+                dataSet3.data(newData.courbe3);
             });
         }, 5000);
     });
