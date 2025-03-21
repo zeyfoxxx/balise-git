@@ -45,20 +45,16 @@
         
     </header>
 
-    <div class="container-fluid">
-    <div class="row justify-content-center mt-5">
-        <!-- Premier graphique -->
-        <div class="col-md-6 col-sm-12">
-            <div id="chart1" style="width: 100%; height: 50vh;"></div>
+    <div class="container-fluid mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-12 chart-container">
+            <div id="chart1" style="height: 50vh;"></div>
         </div>
-
-        <!-- Deuxième graphique -->
-        <div class="col-md-6 col-sm-12">
-            <div id="chart2" style="width: 100%; height: 50vh;"></div>
+        <div class="col-md-6 col-sm-12 chart-container">
+            <div id="chart2" style="height: 50vh;"></div>
         </div>
-
-        <div class="col-md-6 col-sm-12">
-            <div id="chart3" style="width: 100%; height: 50vh;"></div>
+        <div class="col-md-6 col-sm-12 mt-3 chart-container">
+            <div id="chart3" style="height: 50vh;"></div>
         </div>
     </div>
 </div>
@@ -76,6 +72,7 @@
         var series1 = chart1.column(dataSet1.mapAs({ x: "name", value: "valeur" }));
 
         series1.name("Valeur des Fruits");
+        
         chart1.title("pour le moment fruit mais bientot humidité en fonction date");
         chart1.xAxis().title("date");
         chart1.yAxis().title("humidité (%)");

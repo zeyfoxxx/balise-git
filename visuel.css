@@ -51,3 +51,10 @@ body {
 footer {
     margin-top: auto; /* Cela pousse le footer vers le bas */
 }
+
+.chart-container {
+    background: rgba(250, 252, 255, 0.99);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
