@@ -35,7 +35,7 @@
                     <a href="donnee.php" class="nav-link">Donnée</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">ADMIN</a>
+                    <a href="news.php" class="nav-link">news</a>
                 </li>
                 <li class="nav-item">
                     <a href="credit.php" class="nav-link">CREDIT</a>

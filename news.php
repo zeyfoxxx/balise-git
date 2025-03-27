@@ -46,8 +46,8 @@
     </header>
             
             <div id="containerB" class="d-flex flex-column justify-content-center align-items-center text-white text-center font-weight-bolder" style="height: 65vh">
-                <p class="h2"> Bienvenue sur la page de la capitainerie de bandol</p>
-                <p class="h2"> Vous retrouverez sur ce site la météo maritime ainsi différente donnée sur l'état actuel de la mer</p>
+                <p class="h2"> Ylan le gros caca</p>
+                
             
             </div>
         
