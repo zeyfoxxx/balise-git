@@ -126,7 +126,7 @@
         
         <footer class="bg-secondary text-white text-center py-3"> <!-- création du footer de page en définisent sa couleur, la couleur du texte, en mettent le text au centre   -->
             <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p> <!-- première balise text avec en début le logo copyright -->
-            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
+            <p> Ce site a été réalisé par les étudiants du BTS CIEL Rempart</p>
         </footer> <!-- fin du footer  -->
             
     

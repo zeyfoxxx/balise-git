@@ -46,7 +46,7 @@
     </header>
             
             <div id="containerB" class="d-flex flex-column justify-content-center align-items-center text-white text-center font-weight-bolder" style="height: 65vh">
-                <p class="h2"> Ylan le gros caca</p>
+                <p class="h2"> Cet emplacement sera normalement bientôt amélioré grâce au protocole MQTT.</p>
                 
             
             </div>
@@ -58,10 +58,10 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         
         
-        <footer class="bg-secondary text-white text-center py-3">
-            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p>
-            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
-        </footer>
+        <footer class="bg-secondary text-white text-center py-3"> <!-- création du footer de page en définisent sa couleur, la couleur du texte, en mettent le text au centre   -->
+            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p> <!-- première balise text avec en début le logo copyright -->
+            <p> Ce site a été réalisé par les étudiants du BTS CIEL Rempart</p>
+        </footer> <!-- fin du footer  -->
     
     
     </body>

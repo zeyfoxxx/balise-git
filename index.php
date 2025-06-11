@@ -46,8 +46,8 @@
     </header>
             
             <div id="containerB" class="d-flex flex-column justify-content-center align-items-center text-white text-center font-weight-bolder" style="height: 65vh">
-                <p class="h2"> Bienvenue sur la page de la capitainerie de bandol</p>
-                <p class="h2"> Vous retrouverez sur ce site la météo maritime ainsi différente donnée sur l'état actuel de la mer</p>
+                <p class="h2"> Bienvenue sur le site de la capitainerie de Bandol, au service des plaisanciers</p>
+                <p class="h2"> Retrouvez ici la météo maritime et des infos utiles sur l’état actuel de la mer.</p>
             
             </div>
         
@@ -58,10 +58,10 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         
         
-        <footer class="bg-secondary text-white text-center py-3">
-            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p>
-            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
-        </footer>
+        <footer class="bg-secondary text-white text-center py-3"> <!-- création du footer de page en définisent sa couleur, la couleur du texte, en mettent le text au centre   -->
+            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p> <!-- première balise text avec en début le logo copyright -->
+            <p> Ce site a été réalisé par les étudiants du BTS CIEL Rempart</p>
+        </footer> <!-- fin du footer  -->
     
     
     </body>

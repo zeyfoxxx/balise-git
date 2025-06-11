@@ -46,10 +46,10 @@
     </header>
             
             <div id="containerB" class="d-flex flex-column justify-content-center align-items-center text-white text-center bg-dark font-weight-bolder" style="height: 65vh">
-                <p class="h2"> Ce site a été créé par les élèves du BTS CIEL deuxième année au lycée Rempart dans le 7ème arrondissement de Marseille. Il a pour but de valider leur projet de fin d'année afin de valider leur obtention du BTS </p>
-                <p class="h2"> Il a pour but de valider leur projet de fin d'année afin de valider leur obtention du BTS, ou ils avait pour but de proposer une solution au plaisancier pour qu'il puisse vérifier l'état actuel de la mer.</p>
-                <p class="h2"> On espère donc que ce site vous sera utile et que vous l'apprécierez.</p>
-                <p class="h2"> En vous souhaitant une bonne journée et bonne navigation !</p>
+                <p class="h2"> Ce site a été créé par les élèves de deuxième année du BTS CIEL du lycée Rempart, situé dans le 7ᵉ arrondissement de Marseille. Il a pour objectif de valider leur projet de fin d’année en vue de l’obtention du diplôme.  </p>
+                <p class="h2"> Il a pour but de valider leur projet de fin d’année, dont l’objectif était de proposer une solution permettant aux plaisanciers de vérifier l’état actuel de la mer.</p>
+                <p class="h2"> Nous espérons donc que ce site vous sera utile et que vous l'apprécierez.</p>
+                <p class="h2"> En vous souhaitant une bonne journée et une agréable navigation !</p>
                 
             
             </div>
@@ -61,10 +61,10 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         
         
-        <footer class="bg-secondary text-white text-center py-3">
-            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p>
-            <p> Ce site a était réaliser par les étudiants du BTS CIEL Rempart</p>
-        </footer>
+        <footer class="bg-secondary text-white text-center py-3"> <!-- création du footer de page en définisent sa couleur, la couleur du texte, en mettent le text au centre   -->
+            <p>&copy;balise capitainerie bandole BTS CIEL REMPART</p> <!-- première balise text avec en début le logo copyright -->
+            <p> Ce site a été réalisé par les étudiants du BTS CIEL Rempart</p>
+        </footer> <!-- fin du footer  -->
     
     
     </body>
